@@ -131,8 +131,7 @@
                     {
                         "meanDurationDays": 0.0,
                         "code": "00174",
-                        "name": "Anesthesia for intraoral procedures, including biopsy; excision of
-retropharyngeal tumor"
+                        "name": "Anesthesia for intraoral procedures, including biopsy; excision ofretropharyngeal tumor"
                     }
                 ]
             }
@@ -142,3 +141,4 @@ retropharyngeal tumor"
             "ssdiFlag": false
         }
     }
+}
