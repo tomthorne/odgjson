@@ -1,144 +1,43 @@
 {
-    "adjustedSummaryGuidelines": {
-        "midrangeallabsence": 55.20,
-        "midrangeclaims": 93.84,
-        "atriskallabsence": 376.20491465184,
-        "atriskclaims": 384.854795920596
-    },
-    "clientId": "ODGCLAIM",
-    "riskAssessment": {
-        "score": 85.53,
-        "magnitude": 84.43,
-        "volatility": 86.64,
-        "status": "Red (Extreme)"
-    },
-    "adjustedDuration": {
-        "bestPractice": {
-            "days": 54.0
-        },
-        "claimAverage": {
-            "days": 158.0
-        },
-        "claimMax": {
-            "days": 361.0
-        }
-    },
-    "adjustedDecile": {
-        "tenth": 5.5200,
-        "twentieth": 11.0400,
-        "twentyFifth": 13.8000,
-        "thirtieth": 16.5600,
-        "fortieth": 22.0800,
-        "fiftieth": 33.1200,
-        "sixtieth": 49.6800,
-        "seventieth": 82.8000,
-        "seventyFifth": 121.4400,
-        "eightieth": 160.0800,
-        "ninetieth": 391.9200
-    },
-    "icdCodes": {
-        "icdcode": [
-            {
-                "meanDurationDays": {
-                    "bestPractice": 10,
-                    "claimAverage": 22,
-                    "claimMax": 29
-                },
-                "decileData": {
-                    "tenth": 1.00,
-                    "twentieth": 2.00,
-                    "twentyFifth": 2.50,
-                    "thirtieth": 3.00,
-                    "fortieth": 4.00,
-                    "fiftieth": 6.00,
-                    "sixtieth": 9.00,
-                    "seventieth": 15.00,
-                    "seventyFifth": 22.00,
-                    "eightieth": 29.00,
-                    "ninetieth": 71.00
-                },
+    "items": [
+        {
+            "icd": {
+                "mappedSuperTopicId": 37,
                 "code": "S33.5",
                 "name": "Sprain of ligaments of lumbar spine"
-            }
-        ]
-    },
-    "compRate": 922.00,
-    "projectedCosts": {
-        "bestPractice": {
-            "indemnity": 7112.57,
-            "medical": 6047.28,
-            "expense": 1534.63,
-            "total": 14694.48,
-            "claimAverage": {
-                "indemnity": 20810.86,
-                "medical": 27334.01,
-                "expense": 14452.38,
-                "total": 62597.25
             },
-            "claimMax": {
-                "indemnity": 47548.86,
-                "medical": 95330.04,
-                "expense": 24281.91,
-                "total": 167160.81
-            }
-        },
-        "notes": {
-            "medical": {
-                "cp95": {
-                    "alert": "red"
+            "procedures": [
+                {
+                    "code": "00100",
+                    "name": "Anesthesia for procedures on salivary glands, including biopsy",
+                    "incidenceRate": 0.026,
+                    "procedureFrequency": 0.006087510301,
+                    "visit25": 1,
+                    "visit50": 1,
+                    "visit75": 2,
+                    "visitMean": 1.23076923076923,
+                    "costMean": 308.8184,
+                    "odgCAA": 0,
+                    "paymentFlag": "Black",
+                    "costPerVisit": 250.9150,
+                    "procedureType": "head"
                 },
-                "cp100": {
-                    "alert": "red"
+                {
+                    "code": "00140",
+                    "name": "Anesthesia for procedures on eye; not otherwise specified",
+                    "incidenceRate": 0.024,
+                    "procedureFrequency": 0.005619240278,
+                    "visit25": 1,
+                    "visit50": 1,
+                    "visit75": 1,
+                    "visitMean": 1.25,
+                    "costMean": 369.3025,
+                    "odgCAA": 0,
+                    "paymentFlag": "Black",
+                    "costPerVisit": 295.4420,
+                    "procedureType": "head"
                 }
-            }
-        },
-        "cfactors": {
-            "depression": {
-                "applied": 1,
-                "alert": "Red"
-            },
-            "diabetes": {
-                "applied": 1
-            },
-            "hypertension": {
-                "applied": 1
-            },
-            "legalrep": {
-                "applied": 1,
-                "alert": "Red"
-            },
-            "obesity": {
-                "applied": 1
-            },
-            "opioids": {
-                "applied": 2
-            },
-            "smoker": {
-                "applied": 1
-            },
-            "subabuse": {
-                "applied": 1,
-                "alert": "Red"
-            },
-            "surgery": {
-                "applied": 1,
-                "trigger": "00174"
-            }
-        },
-        "procsummary": {
-            "cptcodes": {
-                "cptcode": [
-                    {
-                        "meanDurationDays": 0.0,
-                        "code": "00174",
-                        "name": "Anesthesia for intraoral procedures, including biopsy; excision ofretropharyngeal tumor"
-                    }
-                ]
-            }
-        },
-        "ltd": {
-            "score": 100.0,
-            "ssdiFlag": false
+            ]
         }
-    }
+    ]
 }
